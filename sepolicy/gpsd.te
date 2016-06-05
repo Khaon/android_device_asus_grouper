@@ -1,5 +1,7 @@
 type glgps, domain;
 type glgps_exec, exec_type, file_type;
+type gps_device, dev_type;
+type gps_data_file, file_type, data_file_type;
 
 # Started by init
 init_daemon_domain(glgps)
